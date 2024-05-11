@@ -18,7 +18,7 @@ This project creates a HomeKit-compatible accessory with a NodeMCU that measures
 * Optionally: Breadboard power supply
 
 ## Circuit Diagram
-![Image](./circuit_design_updated.png)
+![Image](circuit_design.png)
 I didn't use the original breadboard power supply, and the NodeMCU is powered directly via a USB power adapter. You may add the breadboard power supply to the circuit without any adjustments to the scripts.
 
 ## Moisture Levels Details
