@@ -15,8 +15,8 @@
 #endif
 
 // TODO: Update Wifi Info
-const char *ssid = "***";
-const char *password = "***";
+const char *ssid = "your-SSID";
+const char *password = "your-PASSWORD";
 
 void wifi_connect()
 {
