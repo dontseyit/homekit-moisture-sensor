@@ -7,9 +7,9 @@ This project creates a HomeKit-compatible accessory with a NodeMCU that measures
 1. If you haven't worked with an ESP8266 before, please follow the [Installing ESP8266 Board in Arduino IDE guide](https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/).
 2. Install the [Arduino HomeKit ESP8266 library](https://github.com/Mixiaoxiao/Arduino-HomeKit-ESP8266) in the Arduino IDE.
 3. Download this repository or copy its contents to your Sketch.
-4. Update `wifi_info.h` with your Wi-Fi credentials.
-5. Upload files to your NodeMCU.
-6. Add the accessory to HomeKit App using the code 111-11-111 (edit `my_accessory.c` if you want to change) 
+4. Update `wifi_info.h` to match with your Wi-Fi credentials.
+5. Upload files to the NodeMCU.
+6. Add the accessory to HomeKit App using the code `111-11-111` (edit `my_accessory.c` if you want to change) 
 
 ## Components
 * NodeMCU (ESP8266)
@@ -18,7 +18,7 @@ This project creates a HomeKit-compatible accessory with a NodeMCU that measures
 * Optionally: Breadboard power supply
 
 ## Circuit Diagram
-![Image](circuit%20design_updated.png)
+![Image](./circuit_design_updated.png)
 I didn't use the original breadboard power supply, and the NodeMCU is powered directly via a USB power adapter. You may add the breadboard power supply to the circuit without any adjustments to the scripts.
 
 ## Moisture Levels Details
